@@ -140,7 +140,17 @@ body {
       // }
     }
   }
-
+.minibox {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  border: none;
+  background-color: hsl(0, 0%, 90%);
+  transition: background-color 300ms;
+}
   .friends-details {
     display: flex;
     justify-content: center;
