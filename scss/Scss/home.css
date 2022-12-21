@@ -95,6 +95,17 @@ body {
   padding: 1rem;
   border-bottom: solid 0.5px #c3bebe;
 }
+.minibox {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  border: none;
+  background-color: hsl(0deg, 0%, 90%);
+  transition: background-color 300ms;
+}
 .friends-container .friends-heading .btn {
   width: 4rem;
   height: 2rem;
